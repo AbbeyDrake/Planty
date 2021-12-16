@@ -5,3 +5,7 @@
 .carousel-control-prev-icon, .carousel-control-next-icon{
     color: black;
 }
+
+.carousel-caption {
+    background-color: rgba(0,0,0,0.5);
+}
