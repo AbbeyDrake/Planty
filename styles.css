@@ -1,5 +1,9 @@
 .jumbotron {
-    background-color: aquamarine;
+    background-image: url("img/potted-plants-collection-succulents-house-260nw-1727685052.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
     margin: 0;
     padding: 30px;
 }
