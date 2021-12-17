@@ -1,11 +1,17 @@
 .jumbotron {
     background-color: aquamarine;
+    margin: 0;
+    padding: 30px;
 }
 
-.carousel-control-prev-icon, .carousel-control-next-icon{
-    color: black;
-}
 
 .carousel-caption {
     background-color: rgba(0,0,0,0.5);
+}
+
+nav {
+    color:black;
+    background-color: darkgreen;
+    margin-bottom: 20px;
+
 }
