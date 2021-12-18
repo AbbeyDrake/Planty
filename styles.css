@@ -1,21 +1,61 @@
 .jumbotron {
-    background-image: url("img/potted-plants-collection-succulents-house-260nw-1727685052.jpeg");
+    background-image: url("img/monstera.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 30vh;
     margin: 0;
     padding: 30px;
-}
-
-
-.carousel-caption {
-    background-color: rgba(0,0,0,0.5);
+    color: whitesmoke;
 }
 
 nav {
     color:black;
-    background-color: darkgreen;
+    background-color: rgb(51, 85, 66);
     margin-bottom: 20px;
 
 }
+
+.carousel {
+    border: solid black
+}
+
+h1 {
+    font-family: 'Abril Fatface';
+}
+
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.carousel-item {
+    background-color: rgb(169, 231, 190);
+    color:black;
+    min-height: 500px;
+   
+}
+
+.carousel-item p{
+    color:black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    
+}
+
+.carousel-caption{
+    top:0;
+    bottom: auto;
+}
+
+.carousel-caption img {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border: solid black 2px;
+}
+
+@media only screen and (max-width: 600px) {
+    .carousel-item {
+      min-height: 200px;
+    }
+  }

@@ -7,14 +7,11 @@
     <title>Local Plant Shops</title>
 
      <!--Bootstrap CSS -->
-     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
-
      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <!-- Additional CSS placed AFTER bootstrap. Stylesheet and fonts -->
     <link rel="stylesheet" href="/styles.css" />
-    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" /><!--customize to what fonts we decide-->
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet"><!--customize to what fonts we decide-->
+    <script src="https://kit.fontawesome.com/7ccc526be6.js" crossorigin="anonymous"></script>
 
      
 </head>
@@ -22,12 +19,10 @@
     <header class="jumbotron jumbotron-fluid">
         <div class="container">
             <div class="row">
-                <div class="col-4 col-sm-3 col-md-2 align-self-center">
-                    <img src="" class="img-fluid">
                 </div>
                 <div class="col">
                     <h1>Planty</h1>
-                    <h2>In Plants We Trust</h2>
+                    <h3>In Plants We Trust</h3>
                 </div>
             </div>
         </div>
@@ -35,7 +30,7 @@
 
     <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
         <div class="container">
-            <a class="navbar-brand" href="#"><img src="img/logo.png" height="30" width="30"></a>
+            <a class="navbar-brand" href="index.html"><img src="img/noun-plant-1009164.svg" height="40" width="40"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#plantyNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -51,7 +46,20 @@
     </nav>
 
     <!--This will be the div for the first section-->
-    <div>
+    <div class="container">
+        <h1>Local Shops</h1>
+        <hr>
+        <div class="row">
+            <div class="col-sm-5">
+                <h2>Find Your Local Green Spots!</h2>
+                <h3>Denver, Colorado</h3>
+                <p>Looking for unique, local plant shops and nurseries to grow your plant family? Denver is home to many plant havens where you can browse extensive collections, take classes and learn more about plant care, and connect with the community through events. </p>
+                <a type="button" href="#localCarousel" class="btn btn-dark">See More</a>
+            </div>
+            <div class="col">MAP</div>
+            </div>
+        </div>
+        <hr>
 
     </div>
       <!--This will be the div for the carousel-->
@@ -70,45 +78,41 @@
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img class="d-block w-100" src="/img/birdsall.png" alt="">
+                            
                             <div class="carousel-caption">
-                                <h3>CAPTION</h3>
-                                <p class="d-none d-sm-block">TEXT</p>
+                                <img src="img/birdsall.png" height="60px">
+                                <p class="d-none d-sm-block">Birdsall is a locally-owned family business run by women with two locations in Denver. They are known best for their massive selection of outdoor containers and have an ever-rotating selection of houseplants. Click here to see upcoming events, such as their holiday wreath making workshop!</p>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="img/bronzepetal.png" alt="">
                             <div class="carousel-caption">
-                                <h3>CAPTION</h3>
-                                <p class="d-none d-sm-block">TEXT</p>
+                                <img src="img/bronzepetal.png" alt="" height="70px">
+                                <p class="d-none d-sm-block">The Bronze Petal, Ltd. is a Denver, Colorado based Aroid small business that specializes in the sale and education of common, uncommon, rare, and “holy grail” Aroids in the Mile High City. These aroids are classified as ultra-rare or extraordinarily difficult to obtain, and The Bronze Petal strives to carry these heavily sought after beauties as long as they are available from reputable sources. Check out some of their upcoming events here.</p>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="img/cityfloral.png" alt="">
                             <div class="carousel-caption">
-                                <h3>CAPTION</h3>
-                                <p class="d-none d-sm-block">TEXT.</p> <!-- These classes make the paragraph responsive - will not display for xs viewport-->
+                                <img src="img/cityfloral.png" alt="" height = "60px">
+                                <p class="d-none d-sm-block"> Established in 1911, City Floral Garden Center is the oldest remaining greenhouse in Denver. The Lammermann family founded a greenhouse for cut flower production and Mr. Lammerman would ride his bicycle down Colfax Avenue (then a dirt road) and deliver cut violets to the Brown Palace. The greenhouse has grown since then, and the massive garden center has an extensive selection of plant and gardening inventory and tools.</p>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="img/GLG.png" alt="">
                             <div class="carousel-caption">
-                                <h3>CAPTION</h3>
-                                <p class="d-none d-sm-block">TEXT.</p> <!-- These classes make the paragraph responsive - will not display for xs viewport-->
+                                <img src="img/GLG.png" alt="" height="60px">
+                                <p class="d-none d-sm-block">Green Lady Gardens is a local woman-owned business that creates a personalized and educational plant shopping experience. GLG is a committed member of the Santa Fe Arts District community and boasts a colorful shop full of joy and inspiration. GLG is committed to socially responsible and culturally conscious business practices that show respect for the Latino community they draw inspiration from. See some of these business practices here.</p>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="img/planted.png" alt="">
+                            
                             <div class="carousel-caption">
-                                <h3>CAPTION</h3>
-                                <p class="d-none d-sm-block">TEXT.</p> <!-- These classes make the paragraph responsive - will not display for xs viewport-->
+                                <img src="img/planted.png" alt="" height="60px">
+                                <p class="d-none d-sm-block">Planted is a full-service plant shop located in Denver near Sloan's Lake owned by Colorado-born Luke Huss. "Living Green" is the Planted business model and manifesto - not only by being surrounded by living greens - but the lifestyle of being green & upcycling. They make, use and sell reclaimed wood plant displays, containers, wallscapes, and much more.</p> <!-- These classes make the paragraph responsive - will not display for xs viewport-->
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="img/reroot.png" alt="">
                             <div class="carousel-caption">
-                                <h3>CAPTION</h3>
-                                <p class="d-none d-sm-block">TEXT.</p> <!-- These classes make the paragraph responsive - will not display for xs viewport-->
+                                <img src="img/reroot.png" alt="" height="60px" style="margin-top: 10px; margin-bottom: 10px;">
+                                <p class="d-none d-sm-block">ReRoot, located in the Rino Arts District in Denver, began with an urge to re-connect people to nature by creating immersive, mossy, dreamy art installations and sprouted into a retail shop, pretty much overnight. They became not only a retail store but a botanical community-focused creative collective, filled with all things green. For them, it's about cultivating our special relationship with plants and sharing that connection with others. They strive to be stewards of the earth and nurture their community near and far as they find their connection with nature.</p>
                             </div>
                         </div>
                     </div>
@@ -119,18 +123,13 @@
                         
                     <a class="carousel-control-next" href="#localCarousel" role="button" data-slide="next">
                             <span class="carousel-control-next-icon"></span>
-                            <span class="sr-only">Next</span> <!-- This is for screenreaders but will not show up-->
+                            <span class="sr-only">Next</span> 
                     </a>
                         
                 </div>
             </div>
         </div>
 
-        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-        
-        
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
