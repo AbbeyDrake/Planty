@@ -73,3 +73,9 @@ h3 {
     width:100%;
     position:absolute;
     }
+
+#careCard {
+    align-items:center;
+    margin: auto;
+
+}
