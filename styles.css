@@ -73,3 +73,22 @@ h3 {
     width:100%;
     position:absolute;
     }
+
+footer {
+    background-color: rgba(51, 85, 66, 0.5);
+}
+
+#carouselButton{
+    position: absolute; /*puts at bottom right of carousel*/
+    right: 0;
+    bottom: 0;
+    z-index: 100; /*makes sure buttons are overlayed instead of hidden underneath carousel*/
+}
+
+.btn-dark{
+    display: flex;
+    border-radius: 100px;
+    align-items: center;
+    justify-content: center;
+    
+}
