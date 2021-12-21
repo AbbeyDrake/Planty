@@ -77,6 +77,7 @@ h3 {
 
 footer {
     background-color: rgba(51, 85, 66, 0.5);
+    height: 50px;
 }
 
 #carouselButton{
