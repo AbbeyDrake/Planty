@@ -97,8 +97,3 @@ footer {
     align-items:center;
     margin: auto;
 }
-
-.textCenter {
-    display: flex;
-    justify-content: center;
-}
