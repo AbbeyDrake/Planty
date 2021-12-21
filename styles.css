@@ -98,3 +98,8 @@ footer {
     align-items:center;
     margin: auto;
 }
+
+.card-header {
+    color: black;
+    text-decoration: none;
+  }
