@@ -106,12 +106,35 @@ footer {
     align-items: center;
     justify-content: center;
 
+}
+
 #careCard {
     align-items:center;
     margin: auto;
+    width: 20rem;
+    box-shadow: 5px 5px 10px 0px;
 }
 
 a, a:hover {
     color: black;
     text-decoration: none;
   }
+
+
+.plant-care-heading {
+    border-bottom: 2px inset black;
+}
+
+.at-a-glance {
+    border: 3px groove black;
+    border-radius: 10px;
+}
+
+
+.accordion-category, a:hover {
+    color: rgb(60, 83, 60);
+    text-decoration: none;
+    font-style: bold;
+
+}
+
