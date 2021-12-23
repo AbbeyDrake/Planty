@@ -105,13 +105,14 @@ footer {
     border-radius: 100px;
     align-items: center;
     justify-content: center;
+}
 
 #careCard {
     align-items:center;
     margin: auto;
 }
 
-.card-header {
+a, a:hover {
     color: black;
     text-decoration: none;
   }
