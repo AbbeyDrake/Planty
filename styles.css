@@ -63,13 +63,14 @@ h3 {
 /*the media query below will adjust settings for my carousel in sm viewports. If the viewport is below 600 px, it will make the carousel smaller, not display the image, and make the text inside smaller so that it fits*/
 @media only screen and (max-width: 600px) {
     .carousel-item {
-      min-height: 250px;
+      min-height: 350px;
     }
     .carousel-caption img {
         display: none;
     }
     .carousel-caption p {
-        font-size: x-small
+        font-size: small;
+
     }
   }
 
