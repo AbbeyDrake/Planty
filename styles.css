@@ -38,7 +38,6 @@ h3 {
    
 }
 
-
 .carousel-item p{
     color:black;
     font-family: 'Courier New', Courier, monospace;
@@ -153,5 +152,6 @@ a, a:hover {
     box-decoration-break: 0 0px 20px 0 rgb(106, 118, 106);
     background-color: rgba(246, 247, 246, 0.2);
     transition: 0.3s;
-    border:rgb(3, 73, 3)}
+    border:rgb(3, 73, 3);
+}
     
