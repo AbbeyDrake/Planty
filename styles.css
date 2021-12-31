@@ -31,7 +31,7 @@ h3 {
 
 }
 
-.carousel-item {
+.carousel-local-shops {
     background-color: rgb(169, 231, 190);
     color:black;
     min-height: 450px;
@@ -46,7 +46,7 @@ h3 {
     
 }
 
-.carousel-caption{
+.carousel-caption-local-shops{
     top:0;
     bottom: auto;
 }
@@ -63,19 +63,18 @@ h3 {
   }
 /*the media query below will adjust settings for my carousel in sm viewports. If the viewport is below 600 px, it will make the carousel smaller, not display the image, and make the text inside smaller so that it fits*/
 @media only screen and (max-width: 600px) {
-    .carousel-item {
+    .carousel-local-shops {
       min-height: 350px;
     }
-    .carousel-caption img {
+    .carousel-caption-local-shops img {
         display: none;
     }
-    .carousel-caption p {
+    .carousel-caption-local-shops p {
         font-size: small;
 
     }
   }
 
-  
 .map-container-5{
     overflow:hidden;
     padding-bottom:56.25%;
