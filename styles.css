@@ -6,7 +6,7 @@
     height: 30vh;
     margin: 0;
     padding: 30px;
-    color: whitesmoke;
+    color: rgb(247, 247, 247);
 }
 
 nav {
@@ -24,6 +24,7 @@ h1 {
     font-family: 'Abril Fatface';
 }
 
+p {text-align: center;}
 
 h3 {
     font-family: 'Courier New', Courier, monospace;
