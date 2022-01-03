@@ -35,8 +35,10 @@ h3 {
     background-color: rgb(169, 231, 190);
     color:black;
     min-height: 450px;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
     
-   
 }
 
 .carousel-local-shops p{
@@ -49,6 +51,8 @@ h3 {
 .carousel-caption-local-shops{
     top:0;
     bottom: auto;
+    justify-content: center;
+    align-items: center;
     
 }
 
